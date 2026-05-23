@@ -1,0 +1,50 @@
+body{
+    font-family: Arial;
+    background:#f0f0f0;
+}
+
+.container{
+    width:400px;
+
+    margin:50px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px gray;
+}
+
+input{
+    width:100%;
+
+    padding:10px;
+
+    margin-bottom:15px;
+}
+
+button{
+    width:100%;
+
+    padding:10px;
+
+    background:blue;
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkblue;
+}
+
+#hasil{
+    margin-top:20px;
+
+    font-weight:bold;
+}
