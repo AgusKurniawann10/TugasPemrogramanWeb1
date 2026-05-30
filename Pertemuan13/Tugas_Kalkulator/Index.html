@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Kalkulator Sederhana</h1>
+
+<input type="number"
+id="angka1"
+placeholder="Angka Pertama">
+
+<input type="number"
+id="angka2"
+placeholder="Angka Kedua">
+
+<select id="operator">
+
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">*</option>
+<option value="/">/</option>
+
+</select>
+
+<button onclick="hitung()">
+Hitung
+</button>
+
+<div id="hasil"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
